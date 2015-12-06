@@ -14,6 +14,18 @@
 		9F7D36311C13859C00DBC709 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F7D362F1C13859C00DBC709 /* LaunchScreen.storyboard */; };
 		9F7D363C1C13859C00DBC709 /* practiceScaleCGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7D363B1C13859C00DBC709 /* practiceScaleCGUITests.swift */; };
 		9F7D36471C13859C00DBC709 /* practiceScaleCGUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7D36461C13859C00DBC709 /* practiceScaleCGUIUITests.swift */; };
+		9FBB93E31C13924E00351BB2 /* ShortFormCGUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBB93E21C13924E00351BB2 /* ShortFormCGUI.swift */; };
+		9FBB93E71C13941800351BB2 /* displayUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBB93E61C13941800351BB2 /* displayUI.swift */; };
+		9FBB93F11C13960C00351BB2 /* LiquidCrystal-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9FBB93E91C13960C00351BB2 /* LiquidCrystal-Bold.otf */; };
+		9FBB93F21C13960C00351BB2 /* LiquidCrystal-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9FBB93EA1C13960C00351BB2 /* LiquidCrystal-BoldItalic.otf */; };
+		9FBB93F31C13960C00351BB2 /* LiquidCrystal-ExBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9FBB93EB1C13960C00351BB2 /* LiquidCrystal-ExBold.otf */; };
+		9FBB93F41C13960C00351BB2 /* LiquidCrystal-ExBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9FBB93EC1C13960C00351BB2 /* LiquidCrystal-ExBoldItalic.otf */; };
+		9FBB93F51C13960C00351BB2 /* LiquidCrystal-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9FBB93ED1C13960C00351BB2 /* LiquidCrystal-Light.otf */; };
+		9FBB93F61C13960C00351BB2 /* LiquidCrystal-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9FBB93EE1C13960C00351BB2 /* LiquidCrystal-LightItalic.otf */; };
+		9FBB93F71C13960C00351BB2 /* LiquidCrystal-Normal.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9FBB93EF1C13960C00351BB2 /* LiquidCrystal-Normal.otf */; };
+		9FBB93F81C13960C00351BB2 /* LiquidCrystal-NormalItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9FBB93F01C13960C00351BB2 /* LiquidCrystal-NormalItalic.otf */; };
+		9FBB93FC1C139A1700351BB2 /* rndBtnUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBB93FB1C139A1700351BB2 /* rndBtnUI.swift */; };
+		9FBB93FE1C139C0A00351BB2 /* sqreBtnUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBB93FD1C139C0A00351BB2 /* sqreBtnUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +59,18 @@
 		9F7D36421C13859C00DBC709 /* practiceScaleCGUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practiceScaleCGUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F7D36461C13859C00DBC709 /* practiceScaleCGUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practiceScaleCGUIUITests.swift; sourceTree = "<group>"; };
 		9F7D36481C13859C00DBC709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FBB93E21C13924E00351BB2 /* ShortFormCGUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShortFormCGUI.swift; sourceTree = "<group>"; };
+		9FBB93E61C13941800351BB2 /* displayUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = displayUI.swift; sourceTree = "<group>"; };
+		9FBB93E91C13960C00351BB2 /* LiquidCrystal-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LiquidCrystal-Bold.otf"; sourceTree = "<group>"; };
+		9FBB93EA1C13960C00351BB2 /* LiquidCrystal-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LiquidCrystal-BoldItalic.otf"; sourceTree = "<group>"; };
+		9FBB93EB1C13960C00351BB2 /* LiquidCrystal-ExBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LiquidCrystal-ExBold.otf"; sourceTree = "<group>"; };
+		9FBB93EC1C13960C00351BB2 /* LiquidCrystal-ExBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LiquidCrystal-ExBoldItalic.otf"; sourceTree = "<group>"; };
+		9FBB93ED1C13960C00351BB2 /* LiquidCrystal-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LiquidCrystal-Light.otf"; sourceTree = "<group>"; };
+		9FBB93EE1C13960C00351BB2 /* LiquidCrystal-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LiquidCrystal-LightItalic.otf"; sourceTree = "<group>"; };
+		9FBB93EF1C13960C00351BB2 /* LiquidCrystal-Normal.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LiquidCrystal-Normal.otf"; sourceTree = "<group>"; };
+		9FBB93F01C13960C00351BB2 /* LiquidCrystal-NormalItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LiquidCrystal-NormalItalic.otf"; sourceTree = "<group>"; };
+		9FBB93FB1C139A1700351BB2 /* rndBtnUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rndBtnUI.swift; sourceTree = "<group>"; };
+		9FBB93FD1C139C0A00351BB2 /* sqreBtnUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sqreBtnUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +127,8 @@
 				9F7D362D1C13859C00DBC709 /* Assets.xcassets */,
 				9F7D362F1C13859C00DBC709 /* LaunchScreen.storyboard */,
 				9F7D36321C13859C00DBC709 /* Info.plist */,
+				9FBB93E11C1386E500351BB2 /* UIClasses */,
+				9FBB93E81C13960C00351BB2 /* Fonts */,
 			);
 			path = practiceScaleCGUI;
 			sourceTree = "<group>";
@@ -123,6 +149,32 @@
 				9F7D36481C13859C00DBC709 /* Info.plist */,
 			);
 			path = practiceScaleCGUIUITests;
+			sourceTree = "<group>";
+		};
+		9FBB93E11C1386E500351BB2 /* UIClasses */ = {
+			isa = PBXGroup;
+			children = (
+				9FBB93E21C13924E00351BB2 /* ShortFormCGUI.swift */,
+				9FBB93E61C13941800351BB2 /* displayUI.swift */,
+				9FBB93FB1C139A1700351BB2 /* rndBtnUI.swift */,
+				9FBB93FD1C139C0A00351BB2 /* sqreBtnUI.swift */,
+			);
+			name = UIClasses;
+			sourceTree = "<group>";
+		};
+		9FBB93E81C13960C00351BB2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9FBB93E91C13960C00351BB2 /* LiquidCrystal-Bold.otf */,
+				9FBB93EA1C13960C00351BB2 /* LiquidCrystal-BoldItalic.otf */,
+				9FBB93EB1C13960C00351BB2 /* LiquidCrystal-ExBold.otf */,
+				9FBB93EC1C13960C00351BB2 /* LiquidCrystal-ExBoldItalic.otf */,
+				9FBB93ED1C13960C00351BB2 /* LiquidCrystal-Light.otf */,
+				9FBB93EE1C13960C00351BB2 /* LiquidCrystal-LightItalic.otf */,
+				9FBB93EF1C13960C00351BB2 /* LiquidCrystal-Normal.otf */,
+				9FBB93F01C13960C00351BB2 /* LiquidCrystal-NormalItalic.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +245,7 @@
 				TargetAttributes = {
 					9F7D36221C13859C00DBC709 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = X5CFRZ9B88;
 					};
 					9F7D36361C13859C00DBC709 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -230,8 +283,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F7D36311C13859C00DBC709 /* LaunchScreen.storyboard in Resources */,
+				9FBB93F11C13960C00351BB2 /* LiquidCrystal-Bold.otf in Resources */,
+				9FBB93F31C13960C00351BB2 /* LiquidCrystal-ExBold.otf in Resources */,
 				9F7D362E1C13859C00DBC709 /* Assets.xcassets in Resources */,
 				9F7D362C1C13859C00DBC709 /* Main.storyboard in Resources */,
+				9FBB93F51C13960C00351BB2 /* LiquidCrystal-Light.otf in Resources */,
+				9FBB93F61C13960C00351BB2 /* LiquidCrystal-LightItalic.otf in Resources */,
+				9FBB93F81C13960C00351BB2 /* LiquidCrystal-NormalItalic.otf in Resources */,
+				9FBB93F71C13960C00351BB2 /* LiquidCrystal-Normal.otf in Resources */,
+				9FBB93F21C13960C00351BB2 /* LiquidCrystal-BoldItalic.otf in Resources */,
+				9FBB93F41C13960C00351BB2 /* LiquidCrystal-ExBoldItalic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +317,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FBB93FC1C139A1700351BB2 /* rndBtnUI.swift in Sources */,
 				9F7D36291C13859C00DBC709 /* ViewController.swift in Sources */,
+				9FBB93E31C13924E00351BB2 /* ShortFormCGUI.swift in Sources */,
+				9FBB93FE1C139C0A00351BB2 /* sqreBtnUI.swift in Sources */,
+				9FBB93E71C13941800351BB2 /* displayUI.swift in Sources */,
 				9F7D36271C13859C00DBC709 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,10 +462,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = practiceScaleCGUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Rim21.practiceScaleCGUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -408,10 +477,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = practiceScaleCGUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Rim21.practiceScaleCGUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -482,6 +555,7 @@
 				9F7D364D1C13859C00DBC709 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F7D364E1C13859C00DBC709 /* Build configuration list for PBXNativeTarget "practiceScaleCGUITests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +564,7 @@
 				9F7D36501C13859C00DBC709 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F7D36511C13859C00DBC709 /* Build configuration list for PBXNativeTarget "practiceScaleCGUIUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +573,7 @@
 				9F7D36531C13859C00DBC709 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

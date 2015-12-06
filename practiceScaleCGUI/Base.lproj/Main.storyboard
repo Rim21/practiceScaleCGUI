@@ -1,25 +1,135 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="practiceScaleCGUI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="metalBgd" translatesAutoresizingMaskIntoConstraints="NO" id="TtA-gr-3Oh">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <animations/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L5B-Kj-q42" customClass="displayUI" customModule="practiceScaleCGUI">
+                                <rect key="frame" x="0.0" y="20" width="320" height="170"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="170" id="UAh-1R-iRe"/>
+                                    <constraint firstAttribute="width" constant="320" id="rWX-a8-68e"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="bcData" value="88"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="csData" value="888"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="bleData" value="888"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="out1Data" value="88888888"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="out2Data" value="88888888"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="out3Data" value="88888888"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lHF-fj-FZc" userLabel="MenuButton" customClass="rndBtnUI" customModule="practiceScaleCGUI">
+                                <rect key="frame" x="20" y="198" width="40" height="60"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <state key="normal">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="gearOn" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="btnTitle" value="Menu"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="menu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4xc-K0-g7d"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8vQ-5x-Axs" userLabel="Test1Button" customClass="rndBtnUI" customModule="practiceScaleCGUI">
+                                <rect key="frame" x="188" y="198" width="40" height="60"/>
+                                <animations/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="gearOn" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="btnTitle" value="Test1"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="Test1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="weF-F8-eJD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cEC-SM-Sy3" userLabel="Test2Button" customClass="rndBtnUI" customModule="practiceScaleCGUI">
+                                <rect key="frame" x="131" y="198" width="40" height="60"/>
+                                <animations/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="gearOn" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="btnTitle" value="Test2"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="Test2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7M9-hw-ku6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PA0-nW-qhh" userLabel="Test3Button" customClass="rndBtnUI" customModule="practiceScaleCGUI">
+                                <rect key="frame" x="75" y="198" width="40" height="60"/>
+                                <animations/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="gearOn" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="btnTitle" value="Test3"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="Test3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="E36-3a-RDy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zKP-1R-ODQ" userLabel="OnOffButton" customClass="sqreBtnUI" customModule="practiceScaleCGUI">
+                                <rect key="frame" x="254" y="198" width="45" height="60"/>
+                                <animations/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="btnIconSet" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="btnTitle" value="On/Off"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="powerOn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bBC-tv-9fq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="TtA-gr-3Oh" secondAttribute="bottom" id="3ia-be-Ydu"/>
+                            <constraint firstItem="TtA-gr-3Oh" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="BFZ-3M-162"/>
+                            <constraint firstAttribute="trailing" secondItem="TtA-gr-3Oh" secondAttribute="trailing" id="OK7-PI-Gzv"/>
+                            <constraint firstItem="L5B-Kj-q42" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="PaA-19-8wi"/>
+                            <constraint firstAttribute="trailing" secondItem="L5B-Kj-q42" secondAttribute="trailing" id="WXP-gy-Uca"/>
+                            <constraint firstItem="L5B-Kj-q42" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="czs-zA-FEO"/>
+                            <constraint firstItem="TtA-gr-3Oh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="tyh-Y9-AUh"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="displayElement" destination="L5B-Kj-q42" id="VcT-ll-ICz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="286" y="340"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="metalBgd" width="414" height="736"/>
+    </resources>
 </document>
